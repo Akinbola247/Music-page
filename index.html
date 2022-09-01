@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenny's music</title>
+    
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8a96cb1e24.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-black" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <img class="brandimage" src="kM-2.jpeg" alt="kennymusic">
+          <h3 class="ken" >Kenny's Music</h3>
+          <button class="navbar-toggler ms" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav ms-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Music</a></li>
+                  <li><a class="dropdown-item" href="#">Music videos</a></li>
+                  <li><a class="dropdown-item" href="#">Stream</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li> 
+             <a href="signin.html"><button type="button" class="btn btn-primary">Login/Signup</button></a>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="music" src="music.png" alt="music">
+          <h1 class="content1" >Listen to your favorite music anytime!</h1>
+          <p class="content2">Download as many songs as you like through our website or our app</p>
+        </div>
+        <div class="carousel-item">
+          <img class="movie" src="movie.png" alt="movie">
+          <h1 class="content1" >Explore our list of music videos!</h1>
+          <p class="content2">Watch and download unlimited music videos for free</p>
+        </div>
+        <div class="carousel-item">
+          <img class="stream" src="streaming.png" alt="stream">
+          <h1 class="content1">Stream movies online for free!</h1>
+          <p class="content2">Enjoy unlimited movie both on our app. Absolutely free!</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    
+    </div>
+    
+    <!-- download button -->
+
+    <div class="download" >
+      <h3>Our App is now available for download</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+   
+    <!-- product -->
+    <section class="product" >
+      <div class="container text-center">
+        <div class="row align-items-start first">
+          <div class="col para">
+            <p>Explore unlimited music streaming and download for all devices. Up your game by staying updated on trending music all over the world!</p>
+          </div>
+          <div class="col imgg">
+            <img class="musiccol" src="musiccol.jpeg" alt="musiccol">
+          </div>
+
+    <div class="container text-center">
+      <div class="row align-items-start">
+              <div class="col imgg1">
+                <img class="movcol" src="movcol.png" alt="movcol">
+              </div>
+              <div class="col para1">
+                <p>Enjoy unlimited music video streaming and download for all devices. Stay updated on trending music video all over the world! get started now!</p>
+              </div>
+            </div>  
+            
+    <div class="container text-center last">
+              <div class="row align-items-start">
+                <div class="col para2">
+                  <p>Enjoy online streaming and unlimited music and movie download on our app! Absolutely free! get started now!
+                </div>
+                <div class="col imgg2">
+                  <img class="streamcol" src="streamcol.png" alt="streamcol">
+                </div>    
+  </section>
+   
+   <!-- community  -->
+   
+<footer id="footer">
+    <div class="community" >
+      <h3>Join our community</h3>
+      <button type="button" class="btn btn-primary">Signup</button>
+    </div>
+    <hr>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook-messenger"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <p class="copy" >© Copyright@ Kenzman</p>
+
+  </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+.body {
+    background-color: white;
+    width: 100%;
+}
+/* Nav bar */
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0), !important;
+}
+.ken {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    margin-top: 2% !important;
+    position: relative;
+    left: 2%;
+    font-size: x-large;
+    
+}
+.container-fluid {
+    padding: 0% 10% 0% 10% !important;
+}
+.navbar-brand {
+    display: inline;
+}
+.navbar-collapse{
+    padding-top: 1%;
+}
+
+.brandimage {
+    display: inline;
+    width: 10%;
+}
+
+/* carousel */
+
+
+#carouselExampleIndicators {
+    height: 60%;
+    background-color: whitesmoke;
+}
+.carousel-inner{
+    text-align: left;
+    padding: 8% 20% 10% 20%
+}
+
+.content1 {
+    padding-top: 5%;
+}
+.music {
+    width: 30%;
+    float: right;
+}
+.movie {
+    width: 30%;
+    float: left;
+}
+.stream {
+    width: 40%;
+    float: right;
+}
+.download {
+    text-align: center;
+    padding: 10% 10%;
+}
+
+/* Product */
+.product {
+    background-color: black;
+    height: 105%;
+}
+.musiccol {
+    width: 60%;
+}
+.movcol {
+    width: 30%;
+    padding-right: 7% !important;
+    
+    
+}
+.streamcol {
+    width: 60%;
+    padding-right: 1% !important;
+}
+.para {
+    text-align: justify ;
+    letter-spacing: 0.1rem;
+    padding-top: 12% !important;
+    color: white;
+}
+.para1 {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    padding-top: 4% !important;
+    color: white;
+}
+.para2 {
+    padding-top: 5% !important;
+    text-align: justify ;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.imgg {
+    text-align: left !important;
+    padding-bottom: 4%;
+}
+.imgg1 {
+    text-align: right !important;
+    padding-top: 2%;
+}
+.imgg2 {
+text-align: left !important;
+padding-bottom: 4%;
+}
+
+.first {
+    padding: 0% 10%;
+}
+.last {
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+.community {
+    letter-spacing: 1.5rem;
+    padding-bottom: 2%;
+    margin-top: 5% !important;
+}
+hr {
+    display: block;
+    position: relative;
+}
+#footer {
+    text-align: center;
+}
+.copy{
+    letter-spacing: 0.5rem;
+}
+.fa-brands {
+    margin: 10px
+}
+
+/* sign-in */
+.sign {
+    padding: 10% 40%;
+}
+
+
+@media screen and (max-width:720px){
+    .para {
+        text-align: left ;   
+    }
+    .para1 {
+        text-align: left;
+    }
+    .para2 {
+        text-align: left ;
+        
+    }
+    .carousel-inner{
+        padding: 8% 20% 8% 20%;
+    }
+    #carouselExampleIndicators {
+        height: 35%;
+    }
+    
+    .musiccol {
+        width: 120%;
+    }
+    .movcol {
+        width: 70%;
+    }
+    .streamcol {
+        width: 150%;
+        padding-right: 35% !important;
+    }
+    .product {
+        height: 95%;
+    }
+    .ken {
+        position: relative;
+        left: 0%;
+        font-size: medium
+    }
+    .sign {
+        padding: 10% 20%;
+    }
+} 
