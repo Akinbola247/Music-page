@@ -142,6 +142,9 @@ hr {
 .sign {
     padding: 10% 40%;
 }
+.join {
+    padding-bottom: 2%;
+}
 
 
 @media screen and (max-width:720px){
@@ -173,7 +176,7 @@ hr {
         padding-right: 35% !important;
     }
     .product {
-        height: 95%;
+        height: 120%;
     }
     .ken {
         position: relative;
@@ -182,5 +185,8 @@ hr {
     }
     .sign {
         padding: 10% 20%;
+    }
+    .community {
+        letter-spacing: 1rem;
     }
 } 
